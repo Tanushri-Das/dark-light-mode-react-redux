@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 import { FaRegMoon } from "react-icons/fa";
 import { IoSunnyOutline } from "react-icons/io5";
 import { useDispatch, useSelector } from "react-redux";
-import { toggleDarkMode } from "../../../redux/themeSlice";
+import { toggleDarkMode } from "../../../redux/features/theme/themeSlice";
 import { FaBars, FaXmark } from "react-icons/fa6";
 
 const Header = () => {
